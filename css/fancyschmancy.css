@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main-title {
+  color: white;
+  font-weight: bold;
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px black;
+}
+
+.main-body {
+  background-color: darkgray;
+  background-image: url("/img/scene2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*max-width: 1000px;*/
+  margin: 0 auto;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Commenting this out for later. Maybe I'll add it. Maybe I won't! */
+/* .border-box {
+  width: 200px;
+  padding: 500px;
+  border: 500px;
+} */
