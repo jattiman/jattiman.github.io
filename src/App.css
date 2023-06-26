@@ -37,6 +37,30 @@
   padding: 2em;
 }
 
-.read-the-docs {
+.ugly-gray-text {
   color: #888;
+}
+
+.main-title {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  /* text-align: center; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin: 0; */
+  /* transform: translate(-50%, -50%); */
+  text-shadow: 3px 3px black;
+}
+
+.main-body {
+  background-color: darkgray;
+  background-image: url("scene2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*max-width: 1000px;*/
+  margin: 0 auto;
 }
