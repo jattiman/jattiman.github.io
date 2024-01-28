@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background-color: darkgray;
+  /* background-color: darkgray; */
   background-image: url("/scene2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
