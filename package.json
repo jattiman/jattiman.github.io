@@ -2,7 +2,7 @@
   "name": "jattiman.github.io",
   "homepage": "johnatti.com",
   "private": true,
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "type": "module",
   "scripts": {
     "dev": "vite",
