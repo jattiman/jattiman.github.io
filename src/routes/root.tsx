@@ -46,8 +46,8 @@ export default function Root() {
     return (
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Made silly mistakes {count} <TimeIsComplicated /> while creating this
-          site. <TimeIsReallyComplicated />
+          You clicked this button {count} <TimeIsComplicated /> while I was creating
+          this site. <TimeIsReallyComplicated />
         </button>
       </div>
     );
@@ -55,7 +55,7 @@ export default function Root() {
 
   return (
     <div className="main-body">
-      <p className="main-title">Coming in 2024. Honest.</p>
+      <p className="main-title">Coming in 2025. Really.</p>
       <CounterThing />
       <p className="ugly-gray-text">Click clack.</p>
     </div>
