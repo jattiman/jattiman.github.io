@@ -57,7 +57,7 @@ export default function Root() {
     <div className="main-body">
       <p className="main-title">Coming in 2025. Really.</p>
       <CounterThing />
-      <p className="ugly-gray-text">Click clack.</p>
+      <p className="ugly-shadow-text">Click clack.</p>
     </div>
   );
 }
